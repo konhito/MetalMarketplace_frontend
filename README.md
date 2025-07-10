@@ -24,6 +24,12 @@ This project provides a robust foundation for creating a scalable metal trading 
 
 ---
 
+##Image
+<div align="center" >
+ <img src = "/public/image.png"  alt="gif" />
+
+</div>
+
 ## Features
 
 - 🛒 Browse and filter metal listings by type, grade, or price
