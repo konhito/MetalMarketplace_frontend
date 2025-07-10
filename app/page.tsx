@@ -1,9 +1,11 @@
 // import Hero from "@/app/components/Hero";
 import Spline from "@splinetool/react-spline/next";
+import NavBar from "@/app/components/Navbar";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
+      <NavBar />
       {/* Hero Section - Fixed for scrolling */}
       <section className="relative flex flex-col items-center justify-center h-screen">
         <div className="absolute inset-0 pointer-events-none">
@@ -52,7 +54,7 @@ export default function Home() {
               Innovation. Quality. Trust.
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Revolutionizing India's metal industry through cutting-edge
+              Revolutionizing India&apos;s metal industry through cutting-edge
               technology and seamless digital experiences
             </p>
           </div>
@@ -183,9 +185,10 @@ export default function Home() {
             About Metal Marketplace
           </h2>
           <p className="text-gray-300 mb-6">
-            Metal Marketplace connects buyers and sellers across India's metal
-            industry, from raw materials to finished goods. Our platform ensures
-            seamless transactions, transparent pricing, and reliable delivery.
+            Metal Marketplace connects buyers and sellers across India&apos;s
+            metal industry, from raw materials to finished goods. Our platform
+            ensures seamless transactions, transparent pricing, and reliable
+            delivery.
           </p>
         </div>
       </section>
